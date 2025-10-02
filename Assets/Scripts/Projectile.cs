@@ -1,15 +1,18 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody))]
-public class Projectile : MonoBehaviour
+namespace Pinball
 {
-    [SerializeField]
-    private Rigidbody rigidBody;
-    
-    public Rigidbody Rigidbody => rigidBody;
-
-    private void OnValidate()
+    [RequireComponent(typeof(Rigidbody))]
+    public class Projectile : MonoBehaviour
     {
-        rigidBody = GetComponent<Rigidbody>();
+        [SerializeField]
+        private Rigidbody rigidBody;
+
+        public Rigidbody Rigidbody => rigidBody;
+
+        private void OnValidate()
+        {
+            rigidBody = GetComponent<Rigidbody>();
+        }
     }
 }

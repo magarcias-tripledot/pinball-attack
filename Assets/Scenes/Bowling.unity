@@ -1902,6 +1902,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4796617653886247934, guid: ca70e4d42836741898fc8ec24693d9c6, type: 3}
+      propertyPath: lifetime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796617653886247934, guid: ca70e4d42836741898fc8ec24693d9c6, type: 3}
+      propertyPath: initialVelocity
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796617653886247934, guid: ca70e4d42836741898fc8ec24693d9c6, type: 3}
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 2980010481261348496, guid: ed93db4566c9d47ca8fd86c3f6a5ba82, type: 3}
